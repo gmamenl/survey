@@ -3,7 +3,8 @@
 <div id="status" role="complementary">
     <h1>¡GRACIAS POR ASISTIR!</h1>
     <p>Esperamos verte también en 2013</p>
-    <p>A <b>${Survey.countByLikeEvent(true)} / ${Survey.count()}</b> asistentes les ha gustado el evento</p>
+
+    <%-- <p>A <b>${Survey.countByLikeEvent(true)} / ${Survey.count()}</b> asistentes les ha gustado el evento</p>--%>
 
 </div>
 <div id="page-body" role="main">
