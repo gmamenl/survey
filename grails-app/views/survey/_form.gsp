@@ -12,7 +12,7 @@
 
 <div class="fieldcontain ${hasErrors(bean: surveyInstance, field: 'twitterUser', 'error')} ">
 	<label for="twitterUser">
-		<g:message code="survey.twitterUser.label" default="Twitter User" />
+		<g:message code="survey.twitterUser.label" default="Usuario de Twitter" />
 		
 	</label>
 	<g:textField name="twitterUser" value="${surveyInstance?.twitterUser}"/>
@@ -20,7 +20,7 @@
 
 <div class="fieldcontain ${hasErrors(bean: surveyInstance, field: 'likeEvent', 'error')} ">
 	<label for="likeEvent">
-		<g:message code="survey.likeEvent.label" default="Like Event" />
+		<g:message code="survey.likeEvent.label" default="Me ha gustado el evento" />
 		
 	</label>
 	<g:checkBox name="likeEvent" value="${surveyInstance?.likeEvent}" />
