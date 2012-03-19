@@ -14,9 +14,9 @@ environments {
     development {
         dataSource {
             dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
-            url = "jdbc:h2:mem:devDb;MVCC=TRUE"
-            username = "sa"
-            password = ""
+            url = "jdbc:mysql://localhost:3306/survey?useUnicode=true&characterEncoding=UTF-8"
+            username = "root"
+            password = "root"
         }
     }
     test {
